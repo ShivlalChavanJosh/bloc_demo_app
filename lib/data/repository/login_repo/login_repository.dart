@@ -17,7 +17,7 @@ class LoginRepository {
 
     String url = DemoApi.BASE_URL+"/sessions/sign_in";
 
-    Map<String,String> headerMap = {"Accept":"application/vnd.simplysmart.v2+json"};
+    Map<String,String> headerMap = {"Accept":"application/json"};
 
     var response = await _request.requestApi(method: MethodType.POST, url: url,data: request.toJson(),
      header: headerMap);
