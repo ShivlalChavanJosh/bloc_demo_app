@@ -5,7 +5,7 @@ class DevEnvironment {
 }
 
 class DemoApi {
-  static const BASE_URL = "http://api-stage.simplymeter.in";
+  static const BASE_URL = "your_end_point";
 }
 
 final environment = DevEnvironment();
